@@ -12,7 +12,13 @@ public class AppendCommand extends Command {
     @Override
     public String execute(String command) {
 
-        //todo.........
+        String[] input = command.split("\\s+");
+
+        if(input.length != 2){
+            throw new UnsupportedOperationException("Error: invalid command parameters");
+        }
+
+        getStrings().add(input[1]);
 
         return super.toString();
     }
