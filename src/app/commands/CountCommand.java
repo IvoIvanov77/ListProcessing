@@ -1,5 +1,7 @@
 package app.commands;
 
+import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
+
 import java.util.List;
 
 public class CountCommand extends Command {
@@ -11,8 +13,21 @@ public class CountCommand extends Command {
     @Override
     public String execute(String command) {
 
-        //todo.........
+        String[] input = command.split("\\s+");
 
-        return "";
+        if(input.length != 2){
+            throw new UnsupportedOperationException("Error: invalid command parameters");
+        }
+
+        String targetString=input[1];
+        int counter=0;
+
+        for (String s :getStrings()) {
+            if (s.compareTo(targetString)==0){
+                counter++;
+            }
+        }
+
+        return String.valueOf(counter);
     }
 }
