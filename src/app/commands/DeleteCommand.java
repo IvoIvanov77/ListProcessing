@@ -1,5 +1,6 @@
 package app.commands;
 
+import java.util.Collections;
 import java.util.List;
 
 public class DeleteCommand extends Command {
@@ -10,7 +11,23 @@ public class DeleteCommand extends Command {
 
     @Override
     public String execute(String command) {
-        //todo.........
+
+        String[] input = command.split("\\s+");
+
+        if(input.length != 2){
+            throw new UnsupportedOperationException("Error: invalid command parameters");
+        }
+
+        int size = this.getStrings().size();
+        int index = Integer.parseInt(input[1]);
+
+        if(index >= 0 && index < size){
+
+            this.getStrings().remove(index);
+
+        } else {
+            throw new IllegalArgumentException("Error: invalid index " + index);
+        }
 
         return super.toString();
     }
