@@ -1,5 +1,6 @@
 package app.commands;
 
+import java.util.Collections;
 import java.util.List;
 
 public class SortCommand extends Command {
@@ -11,7 +12,7 @@ public class SortCommand extends Command {
     @Override
     public String execute(String command) {
 
-        //todo.........
+        Collections.sort(this.getStrings());
 
         return super.toString();
     }
