@@ -11,6 +11,11 @@ public class SortCommand extends Command {
 
     @Override
     public String execute(String command) {
+        String[] input = command.split("\\s+");
+
+        if(input.length != 1){
+            throw new UnsupportedOperationException("Error: invalid command parameters");
+        }
 
         Collections.sort(this.getStrings());
 
