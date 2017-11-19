@@ -31,7 +31,7 @@ public class CommandInterpreter {
         switch (command) {
             case "append":
                 return new AppendCommand(this.strings);
-            case "prepend ":
+            case "prepend":
                 return new PrependCommand(this.strings);
             case "insert":
                 return new InsertCommand(this.strings);
