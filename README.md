@@ -2,7 +2,7 @@
 
 TeamWork project
 
-https://trello.com/b/Uw4nDLFa
+Link to Trello: https://trello.com/b/Uw4nDLFa
 
 
 Contributors:
@@ -10,4 +10,8 @@ Contributors:
 Ana Yaneva
 
 Ivaylo Ivanov
+
+Todor Komitov
+
+Svetlin Buy
 
