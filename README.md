@@ -1,8 +1,9 @@
-# ListProcessing
+## ListProcessing 
+#### Simple Team Work project
 
-### Task Management Tools, Kanban, Trello
+This is the third assignment in the [Practical Teamwork course]( https://softuni.bg/trainings/1799/practical-teamwork-sept-2017)  @ SoftUni. 
 
-#### Simple Team Work project, part of [Practical Teamwork course]( https://softuni.bg/trainings/1799/practical-teamwork-sept-2017) 
+Topic: **Task Management Tools, Kanban, Trello.**
 
 Link to Trello: https://trello.com/b/Uw4nDLFa
  
@@ -18,5 +19,5 @@ Link to Trello: https://trello.com/b/Uw4nDLFa
  
   - Svetlin Buy
   
-  ## [Final Project](https://github.com/IvoIvanov77/TravelGuideSoftUniTeamwork) 
+  ### [Final Project](https://github.com/IvoIvanov77/TravelGuideSoftUniTeamwork) 
  
